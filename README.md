@@ -1,4 +1,6 @@
 Task Management System (Vazifa Boshqaruv Tizimi)
+
+
 Loyiha Haqida
 Bu loyiha Django REST Framework asosida yaratilgan zamonaviy Task Management Systemi bo'lib, tizim orqali vazifalarni yaratish va boshqarish mumkin.
 Asosiy Xususiyatlar
