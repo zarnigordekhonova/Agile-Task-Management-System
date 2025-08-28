@@ -47,3 +47,17 @@ A modern **Task Management System** built with **Django REST Framework**, enabli
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate     # Windows
+````
+
+### 2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 3. Login as project owner
+
+* **Email:** zarnigor1008@gmail.com
+* **Password:** `adminadmin`
+
+---
