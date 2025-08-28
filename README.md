@@ -1,48 +1,49 @@
-Task Management System (Vazifa Boshqaruv Tizimi)
+# 🚀 Task Management System (Vazifa Boshqaruv Tizimi)
 
+[![Build](https://img.shields.io/badge/build-passing-brightgreen)]()
+[![Django](https://img.shields.io/badge/django-4.2+-green)]()
+[![DRF](https://img.shields.io/badge/drf-3.x-red)]()
 
-Loyiha Haqida
-Bu loyiha Django REST Framework asosida yaratilgan zamonaviy Task Management Systemi bo'lib, tizim orqali vazifalarni yaratish va boshqarish mumkin.
-Asosiy Xususiyatlar
-*Task Management (Vazifa Boshqaruv)
-*Vazifalarni yaratish, tahrirlash va o'chirish
-*Vazifa holatini o'zgartirish (Yangi, Jarayonda, Test uchun tayyor, Yakunlangan)
-*Vazifa prioritetlari (Past, O'rta, Yuqori)
-*Foydalanuvchilarga vazifa tayinlash
+A modern **Task Management System** built with **Django REST Framework**, enabling teams to create, manage, and track tasks efficiently.  
 
-Notification System
-Email orqali xabarnomalar
+---
 
-Turli xil notification turlari:
+## ✨ Key Features
 
-Yangi vazifa yaratilganda
-Vazifa holati o'zgarganda
-Vazifa rad etilganda
-Yuqori prioritetli vazifalar uchun
-Barcha jamoa a'zolariga shoshilinch xabarnomalar yuboriladi
+### Task Management  
+- Create, edit, and delete tasks  
+- Change task status (New, In Progress, Ready for Testing, Completed)  
+- Set task priorities (Low, Medium, High)  
+- Assign tasks to team members  
 
-Authentication & Authorization:
-JWT token asosidagi autentifikatsiya
-Role-based permissions (PM, Developer, Tester)
-User sifatida ro'yxatdan o'tiladi va keyinchalik rollar tayinlanadi.
+### Notification System  
+- Email alerts for:  
+  - New task creation  
+  - Task status updates  
+  - Task rejection  
+  - High-priority tasks  
+  - Urgent announcements to all team members  
 
-Backend:
-Django 4.2+ - Web framework
-Django REST Framework - API development
-PostgreSQL - Asosiy database
-JWT - Authentication
-Swagger
+### Authentication & Authorization  
+- JWT-based authentication  
+- Role-based permissions (Project Manager, Developer, Tester)  
+- Users register normally and are later assigned roles  
 
-Ishga tushirish:
+---
 
-Virtual environment yaratish:
+## 🛠 Tech Stack
+
+- **Backend:** Django 4.2+, Django REST Framework  
+- **Database:** PostgreSQL  
+- **Authentication:** JWT  
+- **API Documentation:** Swagger  
+
+---
+
+## 🚀 Getting Started
+
+### 1. Create a virtual environment  
+```bash
 python -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate     # Windows
-
-Dependencies o'rnatish
-bashpip install -r requirements.txt
-
-Project_owner sifatida login qilish: 
-email: zarnigor1008@gmail.com
-password: adminadmin
